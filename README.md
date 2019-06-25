@@ -1,4 +1,4 @@
-# build-abot-home
+# build-a-bot-home
 
 ## Project setup
 ```
