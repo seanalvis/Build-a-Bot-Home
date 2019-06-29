@@ -34,6 +34,7 @@ Sometimes we want to display a filtered or sorted version of an array without ac
 
 For example:
 
+```javascript
 <li v-for="n in evenNumbers">{{ n }}</li>
 data: {
   numbers: [ 1, 2, 3, 4, 5 ]
@@ -45,8 +46,11 @@ computed: {
     })
   }
 }
+```
+
 In situations where computed properties are not feasible (e.g. inside nested v-for loops), you can use a method:
 
+```javascript
 <li v-for="n in even(numbers)">{{ n }}</li>
 data: {
   numbers: [ 1, 2, 3, 4, 5 ]
@@ -58,3 +62,4 @@ methods: {
     })
   }
 }
+```
