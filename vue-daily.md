@@ -1,8 +1,10 @@
 
+https://guides.github.com/features/mastering-markdown/
+
 #20190629
 
-parsing through an object to find a matching param 5 - Working with route params
-
+## parsing through an object to find a matching param 5 - Working with route params
+```html
 <template>
     <div>
         <h1>{{ part.title }}</h1>
@@ -25,9 +27,9 @@ export default {
     },
 };
 </script>
+```
 
-
-Displaying Filtered/Sorted Results
+## Displaying Filtered/Sorted Results
 Sometimes we want to display a filtered or sorted version of an array without actually mutating or resetting the original data. In this case, you can create a computed property that returns the filtered or sorted array.
 
 For example:
